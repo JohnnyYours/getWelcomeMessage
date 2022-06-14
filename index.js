@@ -3,7 +3,7 @@
  * @param {string} [user.fullName]
  */
  const getWelcomeMessage = user => {
-	// your code
+ 	return `Welcome ${user?.fullName ?? "user"}`;
 }
 
 // Sample usage - do not modify
